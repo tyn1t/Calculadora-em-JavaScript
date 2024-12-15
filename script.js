@@ -20,6 +20,9 @@ function chameOnClick(operado) {
         } 
     }  else if (operado === "="){
         try { 
+            if (operado == "0"){
+                textInput.value = "0"
+            }
             textInput.value = eval(text);
         } catch (e) {
             alert("Erro ao calcular valor... Digite um valor válido.");
