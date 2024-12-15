@@ -1,7 +1,7 @@
-#Calculadora
+# Calculadora
 
 
-###Tecnologia
+### Tecnologia
 
     JavaScript
     HTML
